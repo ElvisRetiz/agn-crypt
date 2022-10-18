@@ -60,8 +60,8 @@ const alphabetContainerNine = document.getElementById("alphabet-container-nine")
 const alphabetContainerTen = document.getElementById("alphabet-container-ten");
 const alphabetContainerEleven = document.getElementById("alphabet-container-eleven");
 
-btnLeft.addEventListener('click', () => currentImage = handleForward(imgCarousel, carousel, currentImage));
-btnRight.addEventListener('click', () => currentImage = handleBackward(imgCarousel, carousel, currentImage));
+btnLeft.addEventListener('click', () => currentImage = handleBackward(imgCarousel, carousel, currentImage));
+btnRight.addEventListener('click', () => currentImage = handleForward(imgCarousel, carousel, currentImage));
 btnUpOne.addEventListener('click', () => currentLetterOne = handleUp(alphabetContainerOne, alphabet, currentLetterOne));
 btnDownOne.addEventListener('click', () => currentLetterOne = handleDown(alphabetContainerOne, alphabet, currentLetterOne));
 btnUpTwo.addEventListener('click', () => currentLetterTwo = handleUp(alphabetContainerTwo, alphabet, currentLetterTwo));

@@ -45,8 +45,8 @@ export function handleDown(container, valuesArray, current) {
 export function handleCheck(...args) {
     let comprobation = [25, 23, 0, 4, 5, 12, 0, 19, 5, 9, 28]
     if (comprobation.every((v, i) => v === args[i])) {
-        alert('Felicidades')
+        alert('Envía un whatsapp al 8112162375 con tu escuadra y #LOSXVDELREY♛')
     } else {
-        alert('fracasado')
+        alert('Sigue intentando')
     }
 }
