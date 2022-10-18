@@ -1,0 +1,11 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-container {
+    display: flex;
+}
+
+.alphabet-container {
+    border: solid 1px blue;
+}
