@@ -44,5 +44,9 @@ export function handleDown(container, valuesArray, current) {
 
 export function handleCheck(...args) {
     let comprobation = [25, 23, 0, 4, 5, 12, 0, 19, 5, 9, 28]
-    console.log(comprobation.every((v, i) => v === args[i]))
+    if (comprobation.every((v, i) => v === args[i])) {
+        alert('Felicidades')
+    } else {
+        alert('fracasado')
+    }
 }
