@@ -1,8 +1,15 @@
 export let carousel = [
-    './assets/AGN1.png',
-    './assets/AGN2.png',
-    './assets/AGN3.png',
-    './assets/AGN4.png'
+    './assets/AGN1.jpg',
+    './assets/AGN2.jpg',
+    './assets/AGN3.jpg',
+    './assets/AGN4.jpg',
+    './assets/AGN5.jpg',
+    './assets/AGN6.jpg',
+    './assets/AGN7.jpg',
+    './assets/AGN8.jpg',
+    './assets/AGN9.jpg',
+    './assets/AGN10.jpg',
+    './assets/AGN11.jpg',
 ]
 
 export let alphabet = [
